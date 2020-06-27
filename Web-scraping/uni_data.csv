@@ -1,5 +1,330 @@
 name,locality,state,country,url
-University of Toronto,Toronto,Ontario,Canada,https://utoronto.ca
-University of York,"Heslington, York",,England,https://www.york.ac.uk/
+Massachusetts Institute of Technology,"Cambridge, Massachusetts",,United States,https://web.mit.edu/
 Harvard University,Cambridge,Massachusetts,United States,http://harvard.edu
+Stanford University,Stanford,California,United States,http://stanford.edu
+"University of California, Berkeley",Berkeley,California,United States,http://www.berkeley.edu
+Purdue University,West Lafayette,Indiana,United States,http://www.purdue.edu
+Cornell University,Ithaca,New York,United States,http://cornell.edu
+University of Washington,Seattle,Washington,United States,http://www.washington.edu
+Columbia University in the City of New York,New York City,New York,United States,http://columbia.edu
+University of Michigan,Ann Arbor,Michigan,United States,http://www.umich.edu
+Penn State University,University Park,Pennsylvania,United States,http://www.psu.edu
+University of Minnesota,Minneapolis and Saint Paul,Minnesota,United States,http://www.umn.edu
+University of Wisconsin-Madison,Madison,Wisconsin,United States,http://wisc.edu/
+"University of California, Los Angeles","Westwood, Los Angeles",California,United States,http://ucla.edu
+New York University,New York,New York,United States,http://nyu.edu
+University of Pennsylvania,Philadelphia,Pennsylvania,United States,http://upenn.edu
+University of Toronto,Toronto,Ontario,Canada,https://utoronto.ca
 Yale University,New Haven,Connecticut,United States,http://yale.edu
+The University of Texas at Austin,Austin,Texas,United States,http://www.utexas.edu
+University of Oxford,Oxford,,"England, United Kingdom",http://ox.ac.uk
+Princeton University,Princeton,New Jersey,United States,http://princeton.edu
+Carnegie Mellon University,Pittsburgh,Pennsylvania,United States,http://www.cmu.edu/
+University of Southern California,Los Angeles,California,United States,http://www.usc.edu
+Massachusetts Institute of Technology,"Cambridge, Massachusetts",,United States,https://web.mit.edu/
+Harvard University,Cambridge,Massachusetts,United States,http://harvard.edu
+Stanford University,Stanford,California,United States,http://stanford.edu
+"University of California, Berkeley",Berkeley,California,United States,http://www.berkeley.edu
+Purdue University,West Lafayette,Indiana,United States,http://www.purdue.edu
+Cornell University,Ithaca,New York,United States,http://cornell.edu
+University of Washington,Seattle,Washington,United States,http://www.washington.edu
+Columbia University in the City of New York,New York City,New York,United States,http://columbia.edu
+University of Michigan,Ann Arbor,Michigan,United States,http://www.umich.edu
+Penn State University,University Park,Pennsylvania,United States,http://www.psu.edu
+University of Minnesota,Minneapolis and Saint Paul,Minnesota,United States,http://www.umn.edu
+University of Wisconsin-Madison,Madison,Wisconsin,United States,http://wisc.edu/
+"University of California, Los Angeles","Westwood, Los Angeles",California,United States,http://ucla.edu
+New York University,New York,New York,United States,http://nyu.edu
+University of Pennsylvania,Philadelphia,Pennsylvania,United States,http://upenn.edu
+University of Toronto,Toronto,Ontario,Canada,https://utoronto.ca
+Yale University,New Haven,Connecticut,United States,http://yale.edu
+The University of Texas at Austin,Austin,Texas,United States,http://www.utexas.edu
+University of Oxford,Oxford,,"England, United Kingdom",http://ox.ac.uk
+Princeton University,Princeton,New Jersey,United States,http://princeton.edu
+Carnegie Mellon University,Pittsburgh,Pennsylvania,United States,http://www.cmu.edu/
+University of Southern California,Los Angeles,California,United States,http://www.usc.edu
+Princeton University,Princeton,New Jersey,United States,http://princeton.edu
+Carnegie Mellon University,Pittsburgh,Pennsylvania,United States,http://www.cmu.edu/
+University of Southern California,Los Angeles,California,United States,http://www.usc.edu
+Princeton University,Princeton,New Jersey,United States,http://princeton.edu
+Carnegie Mellon University,Pittsburgh,Pennsylvania,United States,http://www.cmu.edu/
+University of Southern California,Los Angeles,California,United States,http://www.usc.edu
+"University of California, Irvine",Irvine,California,United States,http://www.uci.edu
+University of Colorado Boulder,Boulder,Colorado,United States,http://www.colorado.edu
+University of Illinois at Urbana-Champaign,Urbana and Champaign,Illinois,United States,http://www.illinois.edu
+University of Cambridge,Cambridge,,"England, United Kingdom",http://cam.ac.uk/
+Arizona State University,Tempe,Arizona,United States,http://www.asu.edu
+University of Chicago,Chicago,Illinois,United States,http://www.uchicago.edu
+Johns Hopkins University,Baltimore,Maryland,United States,http://www.jhu.edu/
+"University of California, San Diego",San Diego,California,United States,http://www.ucsd.edu
+Michigan State University,East Lansing,Michigan,United States,http://www.msu.edu
+The University of Arizona,Tucson,Arizona,United States,http://www.arizona.edu
+University of Florida,Gainesville,Florida,United States,http://www.ufl.edu
+"Rutgers, The State University of New Jersey","New Brunswick, Newark and Camden",New Jersey,United States,http://www.rutgers.edu
+Northwestern University,Evanston,Illinois,United States,http://northwestern.edu
+Shanghai Jiao Tong University,Shanghai,,China,http://www.sjtu.edu.cn/
+Texas A&M University,College Station,Texas,United States[Note 2],https://www.tamu.edu
+Duke University,Durham,North Carolina,United States,http://www.duke.edu
+Boston University,Boston,Massachusetts,United States,http://www.bu.edu
+"University of California, Davis",Unincorporated Yolo and Solano counties adjacent to Davis,California,United States,http://ucdavis.edu
+The University of Utah,Salt Lake City,Utah,United States,http://www.utah.edu
+University of North Carolina at Chapel Hill,Chapel Hill,North Carolina,United States,http://www.unc.edu
+University of Maryland,College Park,Maryland,United States,http://www.umd.edu
+Universidad Nacional Autónoma de México,Mexico City,,Mexico,https://www.unam.mx/
+The Ohio State University,Columbus,Ohio,United States,http://osu.edu
+University of Waterloo,Waterloo,Ontario,Canada,http://uwaterloo.ca
+McGill University,Montreal,Quebec,Canada,http://mcgill.ca
+North Carolina State University,Raleigh,North Carolina,United States,http://www.ncsu.edu
+Georgia Institute of Technology,Atlanta,Georgia,United States,http://www.gatech.edu
+University of Virginia,Charlottesville,Virginia,United States,http://virginia.edu
+Eidgenössische Technische Hochschule Zürich,,,,https://www.ethz.ch/en.html
+University of Pittsburgh,Pittsburgh,Pennsylvania,United States,http://www.pitt.edu
+Simon Fraser University,Burnaby/ Surrey/ Downtown Vancouver,British Columbia,Canada,https://www.sfu.ca
+Washington University in St. Louis,Greater St. Louis,Missouri,United States,http://wustl.edu
+Virginia Polytechnic Institute and State University,Blacksburg,Virginia,United States,http://www.vt.edu
+Florida State University,Tallahassee,Florida,United States,http://www.fsu.edu
+Indiana University Bloomington,Bloomington,Indiana,United States,http://www.indiana.edu
+Iowa State University of Science and Technology,Ames,Iowa,United States,http://www.iastate.edu
+"University of California, Santa Barbara",Santa Barbara,California,United States,http://www.ucsb.edu
+University of Massachusetts Amherst,Amherst,Massachusetts,United States,http://www.umass.edu
+National University of Singapore,,,,http://www.nus.edu.sg
+Oregon State University,Corvallis,Oregon,United States,http://www.oregonstate.edu
+University of Alberta,Edmonton,Alberta,Canada,https://www.ualberta.ca/
+University of Houston,Houston,Texas,United States,http://www.uh.edu
+George Mason University,"Arlington (urban), VA, US; Fairfax City-Fairfax County (suburban), VA, US; Front Royal (rural-exurban), VA, US; Prince William (suburban), VA, US; Songdo (urban IBD), Incheon (FEZ), South Korea.[5][6]",,,http://www.gmu.edu
+Tsinghua University,"Haidian District, Beijing",,People's Republic of China,https://www.tsinghua.edu.cn
+Georgetown University,"Washington, D.C.",,United States,http://www.georgetown.edu
+Colorado State University,Fort Collins,Colorado,United States,http://www.colostate.edu
+California Institute of Technology,Pasadena,California,United States,http://www.caltech.edu
+Brigham Young University,Provo,Utah,United States,http://www.byu.edu
+Georgia State University,,,,http://www.gsu.edu
+University of Nebraska-Lincoln,Lincoln,Nebraska,United States,http://www.unl.edu
+University of South Florida,Tampa,Florida,United States,http://usf.edu
+Brown University,Providence,Rhode Island,United States,http://brown.edu
+University of Georgia,Athens,Georgia,United States,http://uga.edu
+The University of Sydney,Sydney,NSW,Australia,http://sydney.edu.au/
+Tufts University,Medford and Somerville,Massachusetts,United States,http://www.tufts.edu
+University of Iowa,Iowa City,Iowa,United States,http://uiowa.edu
+University of Delaware,Newark,Delaware,United States,http://www.udel.edu
+The University of Melbourne,Melbourne,Victoria,Australia,http://unimelb.edu.au
+University of Oregon,Eugene,Oregon,United States,http://www.uoregon.edu
+George Washington University,"Washington, D.C.",,United States,https://www.gwu.edu
+The University of Tokyo,Bunkyō,Tokyo,Japan,https://www.u-tokyo.ac.jp/ja/index.html
+Universitat de Barcelona,"Barcelona, Catalonia",,Spain,http://www.ub.edu/web/ub/en/index.html
+Peking University,"Haidian District, Beijing",,China,https://www.pku.edu.cn/
+Dartmouth College,Hanover,New Hampshire,United States,http://dartmouth.edu
+Washington State University,Pullman,Washington,United States,http://www.wsu.edu
+University of Rochester,Rochester,New York,United States,http://www.rochester.edu
+University of Notre Dame,Notre Dame,Indiana,United States,http://www.nd.edu
+University of Calgary,Calgary,Alberta,Canada,https://www.ucalgary.ca/
+Ruhr-Universität Bochum,Bochum,North Rhine-Westphalia,Germany,https://www.ruhr-uni-bochum.de/index_en.htm
+Vanderbilt University,Nashville,Tennessee,United States,http://www.vanderbilt.edu
+"University of California, Santa Cruz",Santa Cruz,California,United States,http://www.ucsc.edu
+"University at Buffalo, State University of New York",Buffalo,New York,United States,http://www.buffalo.edu
+Universität Wien,"Main building, Vienna",,Austria,http://www.univie.ac.at/en
+Ludwig-Maximilians-Universität München,Munich,Bavaria,Germany,https://www.en.uni-muenchen.de/index.html
+Anadolu Üniversitesi,Eskişehir,,Turkey,http://www.anadolu.edu.tr/
+York University,Toronto,Ontario,Canada,http://www.yorku.ca/
+The London School of Economics and Political Science,London,,United Kingdom,http://www.lse.ac.uk/
+Politecnico di Milano,Milan,,Italy,http://www.polimi.it/en
+University of Illinois at Chicago,Chicago,Illinois,United States,http://www.uic.edu
+National Research University Higher School of Economics,"Moscow (subsidiary campuses in Saint-Petersburg, Nizhny Novgorod and Perm)",,Russia,http://www.hse.ru/en
+Moscow State University,Moscow,,Russia,http://www.msu.ru
+Rice University,Houston,Texas,United States,http://www.rice.edu
+Temple University,Philadelphia,Pennsylvania,United States,http://temple.edu
+The Chinese University of Hong Kong,,,,http://www.cuhk.edu.hk
+Syracuse University,Syracuse,New York,United States,http://www.syracuse.edu
+National Taiwan University,Taipei City,,Taiwan,http://www.ntu.edu.tw/english
+The University of Queensland,"Brisbane, Queensland, Australia",,,https://uq.edu.au/
+University of Central Florida,"near Union Park, Florida",Florida,United States,http://www.ucf.edu
+Universidad Complutense de Madrid,Madrid,,Spain,https://www.ucm.es/english
+Københavns Universitet,Copenhagen,,Denmark,http://www.ku.dk/english
+"University of California, San Francisco",San Francisco,California,United States,http://www.ucsf.edu
+University of Kentucky,Lexington,Kentucky,United States,http://www.uky.edu
+Emory University,Atlanta,Georgia,United States,http://www.emory.edu
+Northeastern University,Boston,Massachusetts,United States,http://www.northeastern.edu
+The University of Oklahoma,Norman,Oklahoma,United States,http://www.ou.edu
+"The University of Tennessee, Knoxville",Knoxville,Tennessee,United States,http://www.utk.edu
+"University of California, Riverside",Riverside & Palm Desert,California,United States,http://www.ucr.edu
+University of Kansas,Lawrence,Kansas,United States,http://www.ku.edu
+Freie Universität Berlin,,,,https://www.fu-berlin.de/en
+Tecnológico de Monterrey,Monterrey,Nuevo León,Mexico,https://tec.mx
+Louisiana State University,Baton Rouge,Louisiana,United States,http://www.lsu.edu
+Rochester Institute of Technology,Henrietta,New York,United States,http://rit.edu
+San Diego State University,San Diego,California,United States,http://www.sdsu.edu
+University of Connecticut,Storrs,Connecticut,United States,http://www.uconn.edu
+École Polytechnique Fédérale de Lausanne,Écublens (near Lausanne),Vaud,Switzerland,https://www.epfl.ch/
+University of New Mexico,Albuquerque,New Mexico,United States,http://www.unm.edu
+McMaster University,Hamilton,Ontario,Canada,http://www.mcmaster.ca/
+Monash University,Melbourne,Victoria,Australia,https://www.monash.edu/
+Imperial College London,London,,United Kingdom,http://www.imperial.ac.uk
+Università degli Studi di Bologna,Bologna,,Italy,http://www.unibo.it/en
+University of Victoria,Greater Victoria,British Columbia,Canada,https://www.uvic.ca/
+University of South Carolina,Columbia,South Carolina,United States,http://www.sc.edu
+Universiteit Gent, Ghent,,Belgium,http://www.ugent.be
+University of Missouri,Columbia,Missouri,United States,http://www.missouri.edu
+University of Science and Technology of China,Hefei,Anhui,China,http://www.ustc.edu.cn
+University of Miami,Coral Gables,Florida,United States,http://miami.edu
+Kent State University,Kent,Ohio,United States,https://www.kent.edu/
+University of Cincinnati,Cincinnati,Ohio,United States,http://www.uc.edu
+Massachusetts Institute of Technology,"Cambridge, Massachusetts",,United States,https://web.mit.edu/
+Harvard University,Cambridge,Massachusetts,United States,http://harvard.edu
+Stanford University,Stanford,California,United States,http://stanford.edu
+"University of California, Berkeley",Berkeley,California,United States,http://www.berkeley.edu
+Purdue University,West Lafayette,Indiana,United States,http://www.purdue.edu
+Cornell University,Ithaca,New York,United States,http://cornell.edu
+University of Washington,Seattle,Washington,United States,http://www.washington.edu
+Columbia University in the City of New York,New York City,New York,United States,http://columbia.edu
+University of Michigan,Ann Arbor,Michigan,United States,http://www.umich.edu
+Penn State University,University Park,Pennsylvania,United States,http://www.psu.edu
+University of Minnesota,Minneapolis and Saint Paul,Minnesota,United States,http://www.umn.edu
+University of Wisconsin-Madison,Madison,Wisconsin,United States,http://wisc.edu/
+"University of California, Los Angeles","Westwood, Los Angeles",California,United States,http://ucla.edu
+New York University,New York,New York,United States,http://nyu.edu
+University of Pennsylvania,Philadelphia,Pennsylvania,United States,http://upenn.edu
+University of Toronto,Toronto,Ontario,Canada,https://utoronto.ca
+Yale University,New Haven,Connecticut,United States,http://yale.edu
+The University of Texas at Austin,Austin,Texas,United States,http://www.utexas.edu
+University of Oxford,Oxford,,"England, United Kingdom",http://ox.ac.uk
+Princeton University,Princeton,New Jersey,United States,http://princeton.edu
+Carnegie Mellon University,Pittsburgh,Pennsylvania,United States,http://www.cmu.edu/
+University of Southern California,Los Angeles,California,United States,http://www.usc.edu
+"University of California, Irvine",Irvine,California,United States,http://www.uci.edu
+University of Colorado Boulder,Boulder,Colorado,United States,http://www.colorado.edu
+University of Illinois at Urbana-Champaign,Urbana and Champaign,Illinois,United States,http://www.illinois.edu
+University of Cambridge,Cambridge,,"England, United Kingdom",http://cam.ac.uk/
+Arizona State University,Tempe,Arizona,United States,http://www.asu.edu
+University of Chicago,Chicago,Illinois,United States,http://www.uchicago.edu
+Johns Hopkins University,Baltimore,Maryland,United States,http://www.jhu.edu/
+"University of California, San Diego",San Diego,California,United States,http://www.ucsd.edu
+Michigan State University,East Lansing,Michigan,United States,http://www.msu.edu
+The University of Arizona,Tucson,Arizona,United States,http://www.arizona.edu
+University of Florida,Gainesville,Florida,United States,http://www.ufl.edu
+"Rutgers, The State University of New Jersey","New Brunswick, Newark and Camden",New Jersey,United States,http://www.rutgers.edu
+Northwestern University,Evanston,Illinois,United States,http://northwestern.edu
+Shanghai Jiao Tong University,Shanghai,,China,http://www.sjtu.edu.cn/
+Texas A&M University,College Station,Texas,United States[Note 2],https://www.tamu.edu
+Duke University,Durham,North Carolina,United States,http://www.duke.edu
+Boston University,Boston,Massachusetts,United States,http://www.bu.edu
+"University of California, Davis",Unincorporated Yolo and Solano counties adjacent to Davis,California,United States,http://ucdavis.edu
+The University of Utah,Salt Lake City,Utah,United States,http://www.utah.edu
+University of North Carolina at Chapel Hill,Chapel Hill,North Carolina,United States,http://www.unc.edu
+University of Maryland,College Park,Maryland,United States,http://www.umd.edu
+Universidad Nacional Autónoma de México,Mexico City,,Mexico,https://www.unam.mx/
+The Ohio State University,Columbus,Ohio,United States,http://osu.edu
+University of Waterloo,Waterloo,Ontario,Canada,http://uwaterloo.ca
+McGill University,Montreal,Quebec,Canada,http://mcgill.ca
+North Carolina State University,Raleigh,North Carolina,United States,http://www.ncsu.edu
+Georgia Institute of Technology,Atlanta,Georgia,United States,http://www.gatech.edu
+University of Virginia,Charlottesville,Virginia,United States,http://virginia.edu
+Eidgenössische Technische Hochschule Zürich,,,,https://www.ethz.ch/en.html
+University of Pittsburgh,Pittsburgh,Pennsylvania,United States,http://www.pitt.edu
+Simon Fraser University,Burnaby/ Surrey/ Downtown Vancouver,British Columbia,Canada,https://www.sfu.ca
+Washington University in St. Louis,Greater St. Louis,Missouri,United States,http://wustl.edu
+Virginia Polytechnic Institute and State University,Blacksburg,Virginia,United States,http://www.vt.edu
+Florida State University,Tallahassee,Florida,United States,http://www.fsu.edu
+Indiana University Bloomington,Bloomington,Indiana,United States,http://www.indiana.edu
+Iowa State University of Science and Technology,Ames,Iowa,United States,http://www.iastate.edu
+"University of California, Santa Barbara",Santa Barbara,California,United States,http://www.ucsb.edu
+University of Massachusetts Amherst,Amherst,Massachusetts,United States,http://www.umass.edu
+National University of Singapore,,,,http://www.nus.edu.sg
+Oregon State University,Corvallis,Oregon,United States,http://www.oregonstate.edu
+University of Alberta,Edmonton,Alberta,Canada,https://www.ualberta.ca/
+University of Houston,Houston,Texas,United States,http://www.uh.edu
+George Mason University,"Arlington (urban), VA, US; Fairfax City-Fairfax County (suburban), VA, US; Front Royal (rural-exurban), VA, US; Prince William (suburban), VA, US; Songdo (urban IBD), Incheon (FEZ), South Korea.[5][6]",,,http://www.gmu.edu
+Tsinghua University,"Haidian District, Beijing",,People's Republic of China,https://www.tsinghua.edu.cn
+Georgetown University,"Washington, D.C.",,United States,http://www.georgetown.edu
+Colorado State University,Fort Collins,Colorado,United States,http://www.colostate.edu
+California Institute of Technology,Pasadena,California,United States,http://www.caltech.edu
+Brigham Young University,Provo,Utah,United States,http://www.byu.edu
+Georgia State University,,,,http://www.gsu.edu
+University of Nebraska-Lincoln,Lincoln,Nebraska,United States,http://www.unl.edu
+University of South Florida,Tampa,Florida,United States,http://usf.edu
+Brown University,Providence,Rhode Island,United States,http://brown.edu
+University of Georgia,Athens,Georgia,United States,http://uga.edu
+The University of Sydney,Sydney,NSW,Australia,http://sydney.edu.au/
+Tufts University,Medford and Somerville,Massachusetts,United States,http://www.tufts.edu
+University of Iowa,Iowa City,Iowa,United States,http://uiowa.edu
+University of Delaware,Newark,Delaware,United States,http://www.udel.edu
+The University of Melbourne,Melbourne,Victoria,Australia,http://unimelb.edu.au
+University of Oregon,Eugene,Oregon,United States,http://www.uoregon.edu
+George Washington University,"Washington, D.C.",,United States,https://www.gwu.edu
+The University of Tokyo,Bunkyō,Tokyo,Japan,https://www.u-tokyo.ac.jp/ja/index.html
+Universitat de Barcelona,"Barcelona, Catalonia",,Spain,http://www.ub.edu/web/ub/en/index.html
+Peking University,"Haidian District, Beijing",,China,https://www.pku.edu.cn/
+Dartmouth College,Hanover,New Hampshire,United States,http://dartmouth.edu
+Washington State University,Pullman,Washington,United States,http://www.wsu.edu
+University of Rochester,Rochester,New York,United States,http://www.rochester.edu
+University of Notre Dame,Notre Dame,Indiana,United States,http://www.nd.edu
+University of Calgary,Calgary,Alberta,Canada,https://www.ucalgary.ca/
+Ruhr-Universität Bochum,Bochum,North Rhine-Westphalia,Germany,https://www.ruhr-uni-bochum.de/index_en.htm
+Vanderbilt University,Nashville,Tennessee,United States,http://www.vanderbilt.edu
+"University of California, Santa Cruz",Santa Cruz,California,United States,http://www.ucsc.edu
+"University at Buffalo, State University of New York",Buffalo,New York,United States,http://www.buffalo.edu
+Universität Wien,"Main building, Vienna",,Austria,http://www.univie.ac.at/en
+Ludwig-Maximilians-Universität München,Munich,Bavaria,Germany,https://www.en.uni-muenchen.de/index.html
+Anadolu Üniversitesi,Eskişehir,,Turkey,http://www.anadolu.edu.tr/
+York University,Toronto,Ontario,Canada,http://www.yorku.ca/
+The London School of Economics and Political Science,London,,United Kingdom,http://www.lse.ac.uk/
+Politecnico di Milano,Milan,,Italy,http://www.polimi.it/en
+University of Illinois at Chicago,Chicago,Illinois,United States,http://www.uic.edu
+National Research University Higher School of Economics,"Moscow (subsidiary campuses in Saint-Petersburg, Nizhny Novgorod and Perm)",,Russia,http://www.hse.ru/en
+Moscow State University,Moscow,,Russia,http://www.msu.ru
+Rice University,Houston,Texas,United States,http://www.rice.edu
+Temple University,Philadelphia,Pennsylvania,United States,http://temple.edu
+The Chinese University of Hong Kong,,,,http://www.cuhk.edu.hk
+Syracuse University,Syracuse,New York,United States,http://www.syracuse.edu
+National Taiwan University,Taipei City,,Taiwan,http://www.ntu.edu.tw/english
+The University of Queensland,"Brisbane, Queensland, Australia",,,https://uq.edu.au/
+University of Central Florida,"near Union Park, Florida",Florida,United States,http://www.ucf.edu
+Universidad Complutense de Madrid,Madrid,,Spain,https://www.ucm.es/english
+Københavns Universitet,Copenhagen,,Denmark,http://www.ku.dk/english
+"University of California, San Francisco",San Francisco,California,United States,http://www.ucsf.edu
+University of Kentucky,Lexington,Kentucky,United States,http://www.uky.edu
+Emory University,Atlanta,Georgia,United States,http://www.emory.edu
+Northeastern University,Boston,Massachusetts,United States,http://www.northeastern.edu
+The University of Oklahoma,Norman,Oklahoma,United States,http://www.ou.edu
+"The University of Tennessee, Knoxville",Knoxville,Tennessee,United States,http://www.utk.edu
+"University of California, Riverside",Riverside & Palm Desert,California,United States,http://www.ucr.edu
+University of Kansas,Lawrence,Kansas,United States,http://www.ku.edu
+Freie Universität Berlin,,,,https://www.fu-berlin.de/en
+Tecnológico de Monterrey,Monterrey,Nuevo León,Mexico,https://tec.mx
+Louisiana State University,Baton Rouge,Louisiana,United States,http://www.lsu.edu
+Rochester Institute of Technology,Henrietta,New York,United States,http://rit.edu
+San Diego State University,San Diego,California,United States,http://www.sdsu.edu
+University of Connecticut,Storrs,Connecticut,United States,http://www.uconn.edu
+École Polytechnique Fédérale de Lausanne,Écublens (near Lausanne),Vaud,Switzerland,https://www.epfl.ch/
+University of New Mexico,Albuquerque,New Mexico,United States,http://www.unm.edu
+McMaster University,Hamilton,Ontario,Canada,http://www.mcmaster.ca/
+Monash University,Melbourne,Victoria,Australia,https://www.monash.edu/
+Imperial College London,London,,United Kingdom,http://www.imperial.ac.uk
+Università degli Studi di Bologna,Bologna,,Italy,http://www.unibo.it/en
+University of Victoria,Greater Victoria,British Columbia,Canada,https://www.uvic.ca/
+University of South Carolina,Columbia,South Carolina,United States,http://www.sc.edu
+Universiteit Gent, Ghent,,Belgium,http://www.ugent.be
+University of Missouri,Columbia,Missouri,United States,http://www.missouri.edu
+University of Science and Technology of China,Hefei,Anhui,China,http://www.ustc.edu.cn
+University of Miami,Coral Gables,Florida,United States,http://miami.edu
+Kent State University,Kent,Ohio,United States,https://www.kent.edu/
+University of Cincinnati,Cincinnati,Ohio,United States,http://www.uc.edu
+Kungliga Tekniska högskolan,Stockholm,,Sweden,http://www.kth.se/en
+Florida International University,University Park,Florida,United States,http://www.fiu.edu
+Università degli Studi di Milano,Milan,,Italy,https://www.unimi.it/en
+Université de Montréal,Montreal,Quebec,Canada,http://www.umontreal.ca/
+Technische Universität München,,,,http://www.tum.de
+Universitas Gadjah Mada,"Sleman Regency, Yogyakarta",Special Region of Yogyakarta,Indonesia,http://www.ugm.ac.id/en
+Wuhan University,Wuhan,Hubei,China,http://www.whu.edu.cn
+Technische Universiteit Delft,Delft,,Netherlands,https://www.tudelft.nl/en/
+University of Pretoria,Pretoria,Gauteng,South Africa[17],http://www.up.ac.za/
+Universiteit van Amsterdam,Amsterdam,North Holland,Netherlands,http://www.uva.nl/home
+Uppsala Universitet,Uppsala,,Sweden,http://www.uu.se/
+Université de Lorraine,Nancy and Metz,Grand Est,France,http://www.univ-lorraine.fr
+Rijksuniversiteit Groningen,Groningen,,Netherlands,http://www.rug.nl
+Ryerson University,Toronto,Ontario,Canada,http://www.ryerson.ca
+Boston College,Chestnut Hill,Massachusetts,United States,http://www.bc.edu
+Aalto-yliopisto,Espoo,,Finland[a],http://www.aalto.fi/en/
+Rensselaer Polytechnic Institute,Troy,New York,United States,http://www.rpi.edu
+Drexel University,Philadelphia,Pennsylvania,United States,http://www.drexel.edu
+San José State University,San Jose,California,United States,http://www.sjsu.edu
+University of North Texas,Denton,Texas,United States,http://www.unt.edu
+Fordham University,New York City,New York,United States,http://fordham.edu
