@@ -31,33 +31,25 @@ Tags: >>> (9 digits)
 4. Use unique function to create values in new array
 5. Go through each element and randomize an ID number
 6. Create new list that has class
+7. Insert lists back into csv file.
 
-Return value: classes 
+Return value: file called "sample1.csv" that will have new ID columns 
 """
 
-import numpy as np
-import csv
-import os
-import base64
+import random
 #import re
 
 class Element:
-  pass
-
+    pass
 
 #create list 
-def Create_List(total_entries, row_number, temp_table):
+def Create_List(total_entries, col_num, temp_table):
     lst = []
     for x in range(1,total_entries):
-
-        # see if it is a word (valid)
-        if(any(map(str.isdigit, temp_table[row_number][x])) == False):
-
-            lst.append(temp_table[row_number][x])
-        else:
-            lst.append('NA')
+        lst.append(temp_table[col_num][x])
     return lst
 
+#gives key to all the unique 
 def Uniqueness_Key(ID_length, array):
     
     key = []
@@ -73,7 +65,7 @@ def Uniqueness_Key(ID_length, array):
         if tmp[i] != 'NA':
             obj = Element()
             obj.element = tmp[i]
-            obj.ID = base64.b64encode(os.urandom(ID_length)).decode('ascii')
+            obj.ID = random.randint(10**(ID_length-1), 10**(ID_length))
             key.append(obj) 
         else:
             obj = Element()
@@ -82,51 +74,32 @@ def Uniqueness_Key(ID_length, array):
           
     return key;
 
+#key input will allow it to be ordered ID column
 def New_Array(key, lst):
+    array=[]
     for i in range(len(lst)):
         for j in range(len(key)):
             if(lst[i]==key[j].element):
-                lst[i]=key[j]
-    return lst  
+                array.append(key[j].ID)
+    return array
 
 def ID_Assignment(total_entries, col_num, temp_table, ID_len):
     lst = Create_List(total_entries, col_num, temp_table)
     key = Uniqueness_Key(ID_len, lst)
-    lst = New_Array(key, lst)
-    return lst
+    ids = New_Array(key, lst)
+    return lst, ids
 
-def main(filename1):
-    
-    temp_table=[]
-    with open(filename1, newline='') as csvfile:
-        csvreader = csv.reader(csvfile, delimiter=',')
-        for column in csvreader:
-            if column != 0:
-                temp_table.append(column)
-    temp_table=np.transpose(temp_table)
-    
-    #total element number
-    total_entries = len(temp_table[0])
-    
-    #create lists for each ID category
-    subjects = ID_Assignment(total_entries, 0, temp_table, 3)
-    countries = ID_Assignment(total_entries, 1, temp_table, 9)
-    languages = ID_Assignment(total_entries, 2, temp_table, 7)
-    people = ID_Assignment(total_entries, 3, temp_table, 10)
-    research_area = ID_Assignment(total_entries, 4, temp_table, 8)
-    #tags = ID_Assignment(total_entries, 5, temp_table, 11)
-    
-    for i in range(len(subjects)):
-        print(research_area[i].ID)
-    
-    return subjects, countries, languages, people, research_area #, tags
-    
+def ID_Assignment_tag(total_entries, col_num, temp_table, ID_len):
+    lst = Create_List(total_entries, col_num, temp_table)
+    key = Uniqueness_Key(ID_len, lst)
+    ids = New_Array(key, lst)
+    return lst, ids, key
 
-
-if __name__ == "__main__":
-    import sys
-    if len(sys.argv) != 2:
-        print("2 arguments needed")
-        sys.exit(os.EX_OK)
-    file1Path = sys.argv[1]
-    main(file1Path)
+def People_ID(total_entries, ID_length, col_num, temp_table):
+    lst=[]
+    ids = []
+    for i in range(1, total_entries):
+        ids.append(random.randint(10**(ID_length-1), 10**(ID_length)))
+        lst.append(temp_table[col_num][i])
+    return lst, ids
+    
