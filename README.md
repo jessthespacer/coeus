@@ -24,10 +24,10 @@ and supervisors.
     Find more options
 
 # Languages and tool
-1. Experience with SQL or databases.
+1. SQL .
 2. Python.
 3. HTML script for website development.
-4. Interest in academia and/or database development.
+4. Academia and database development.
 
 
 # References and background material
