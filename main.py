@@ -13,6 +13,7 @@ import pandas as pd
 from ID_Generation import ID_Assignment
 from ID_Generation import People_ID
 from ID_Generation import Create_List
+from ID_Gen_tags import ppl_tag
 
 
 col_s = 2
@@ -53,11 +54,13 @@ def main(filename1):
     ppl, ppl_ID = People_ID(total_entries, 6, col_p, temp_table)
     ra, ra_ID = ID_Assignment(total_entries, col_r, temp_table, 7)
     uni, uni_ID = ID_Assignment(total_entries, col_u, temp_table, 8)
+    
     tags, tags_ID = ID_Assignment(total_entries, col_t, temp_table, 9)
     
     tag = Create_List(total_entries, col_t, temp_table)
     print(tag)
-
+    
+    ppl_tag(total_entries, col_p, col_t, temp_table, ppl, ppl_ID)
     
     #lists that dont need IDs
     uni_rnk = Create_List(total_entries, col_ur, temp_table)
@@ -105,7 +108,7 @@ def main(filename1):
     df3.to_csv (r'/home/kaitlyn/Documents/hackathon/ra_tbl.csv', index = False, header=True)
 
     #Tags Table
-    tag_tbl = { 'Tag': tags,
+    tag_tbl = {'Tag': tags,
                'Tag ID': tags_ID,
                'RA ID': ra_ID
             }
