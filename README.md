@@ -15,8 +15,7 @@ Our goal is to provide researchers and students an easier time to find collabora
 
 # Solution Features
 1.  Design and create said database.
-2.  Algorithm that will extract specific information about programs.
-and supervisors.
+2.  Algorithm that will extract specific information about programs and supervisors.
 3. Website that:
     - Easy to search
     Find list of opportunities catered to your goals.
@@ -31,21 +30,21 @@ and supervisors.
 
 
 # References and background material
-[1] Structure to allow Collaboration: https://doi.org/10.1080/08956308.1994.11670969 [1]
-[2] https://daily.jstor.org/scientific-researchers-need-to-open-up-to-colla…[2]
-[3]https://developer.linkedin.com/docs/rest-api[3]
-[4]https://cs50.harvard.edu/x/2020/weeks/7/[4]
-[5] https://www.usnews.com/best-graduate-schools/top-science-schools/string-theory-rankings[5]
+[1] Structure to allow Collaboration: https://doi.org/10.1080/08956308.1994.11670969 [1] .
+[2] https://daily.jstor.org/scientific-researchers-need-to-open-up-to-colla…[2] .
+[3]https://developer.linkedin.com/docs/rest-api[3] .
+[4]https://cs50.harvard.edu/x/2020/weeks/7/[4] .
+[5] https://www.usnews.com/best-graduate-schools/top-science-schools/string-theory-rankings[5] .
 
 
 # Contributors:
-Amal (amal.al.kholeify@gmail.com)
-Bibek (nuraiymkk@gmail.com)
-Emily (nuraiymkk@gmail.com)
-Jin (jssia@uwaterloo.ca)
-Justin (justin.kerr.13@gmail.com)
-Kaitlyn (kaitlyn.liang@mail.utoronto.ca)
-Kuunal Mahtani(k.mahtani@mail.utoronto.ca)
-Nuraiym (nuraiymkk@gmail.com)
-Priyanka (priyankapdx@gmail.com)
+Amal (amal.al.kholeify@gmail.com) .
+Bibek (nuraiymkk@gmail.com) .
+Emily (nuraiymkk@gmail.com) .
+Jin (jssia@uwaterloo.ca) .
+Justin (justin.kerr.13@gmail.com) .
+Kaitlyn (kaitlyn.liang@mail.utoronto.ca) .
+Kuunal Mahtani(k.mahtani@mail.utoronto.ca) .
+Nuraiym (nuraiymkk@gmail.com) .
+Priyanka (priyankapdx@gmail.com) .
 
