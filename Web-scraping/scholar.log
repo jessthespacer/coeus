@@ -1,0 +1,393 @@
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&view_op=search_authors&mauthors=Steven%20A%20Cholewiak
+WARNING:fake_useragent:Error occurred during loading data. Trying to use cache server https://fake-useragent.herokuapp.com/browsers/0.1.11
+Traceback (most recent call last):
+  File "/home/jin/miniconda3/lib/python3.7/urllib/request.py", line 1317, in do_open
+    encode_chunked=req.has_header('Transfer-encoding'))
+  File "/home/jin/miniconda3/lib/python3.7/http/client.py", line 1244, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/home/jin/miniconda3/lib/python3.7/http/client.py", line 1290, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/home/jin/miniconda3/lib/python3.7/http/client.py", line 1239, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/home/jin/miniconda3/lib/python3.7/http/client.py", line 1026, in _send_output
+    self.send(msg)
+  File "/home/jin/miniconda3/lib/python3.7/http/client.py", line 966, in send
+    self.connect()
+  File "/home/jin/miniconda3/lib/python3.7/http/client.py", line 938, in connect
+    (self.host,self.port), self.timeout, self.source_address)
+  File "/home/jin/miniconda3/lib/python3.7/socket.py", line 727, in create_connection
+    raise err
+  File "/home/jin/miniconda3/lib/python3.7/socket.py", line 716, in create_connection
+    sock.connect(sa)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jin/miniconda3/lib/python3.7/site-packages/fake_useragent/utils.py", line 67, in get
+    context=context,
+  File "/home/jin/miniconda3/lib/python3.7/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/home/jin/miniconda3/lib/python3.7/urllib/request.py", line 525, in open
+    response = self._open(req, data)
+  File "/home/jin/miniconda3/lib/python3.7/urllib/request.py", line 543, in _open
+    '_open', req)
+  File "/home/jin/miniconda3/lib/python3.7/urllib/request.py", line 503, in _call_chain
+    result = func(*args)
+  File "/home/jin/miniconda3/lib/python3.7/urllib/request.py", line 1345, in http_open
+    return self.do_open(http.client.HTTPConnection, req)
+  File "/home/jin/miniconda3/lib/python3.7/urllib/request.py", line 1319, in do_open
+    raise URLError(err)
+urllib.error.URLError: <urlopen error timed out>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jin/miniconda3/lib/python3.7/site-packages/fake_useragent/utils.py", line 166, in load
+    verify_ssl=verify_ssl,
+  File "/home/jin/miniconda3/lib/python3.7/site-packages/fake_useragent/utils.py", line 122, in get_browser_versions
+    verify_ssl=verify_ssl,
+  File "/home/jin/miniconda3/lib/python3.7/site-packages/fake_useragent/utils.py", line 84, in get
+    raise FakeUserAgentError('Maximum amount of retries reached')
+fake_useragent.errors.FakeUserAgentError: Maximum amount of retries reached
+INFO:scholarly:Found 1 authors
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&user=4bahYMkAAAAJ&pagesize=100
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&view_op=view_citation&citation_for_view=4bahYMkAAAAJ:u5HHmVD_uO8C
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&view_op=view_citation&citation_for_view=4bahYMkAAAAJ:u5HHmVD_uO8C
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&view_op=view_citation&citation_for_view=4bahYMkAAAAJ:u5HHmVD_uO8C
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&view_op=search_authors&mauthors=Marco%20Alfano
+INFO:scholarly:Found 2 authors
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&user=zbK0Ys0AAAAJ&pagesize=100
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&view_op=search_authors&mauthors=Marco%20Alfano
+INFO:scholarly:Found 2 authors
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&user=zbK0Ys0AAAAJ&pagesize=100
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&view_op=search_authors&mauthors=Marco%20Alfano
+INFO:scholarly:Found 2 authors
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&user=zbK0Ys0AAAAJ&pagesize=100
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&view_op=search_authors&mauthors=Arash%20Arami
+INFO:scholarly:Found 2 authors
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&user=NZKJuAIAAAAJ&pagesize=100
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&view_op=search_authors&mauthors=Sanjeev%20Bedi
+INFO:scholarly:Found 1 authors
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&user=FrrPL50AAAAJ&pagesize=100
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&user=FrrPL50AAAAJ&cstart=100&pagesize=100
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&view_op=search_authors&mauthors=Elliot%20Biro
+INFO:scholarly:Found 1 authors
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&user=AzCwhCAAAAAJ&pagesize=100
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&view_op=search_authors&mauthors=Clifford%20Butcher
+INFO:scholarly:Found 1 authors
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&user=RVKquSMAAAAJ&pagesize=100
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&view_op=search_authors&mauthors=Dongpu%20Cao
+INFO:scholarly:Found 1 authors
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&user=ss0bqPYAAAAJ&pagesize=100
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&user=ss0bqPYAAAAJ&cstart=100&pagesize=100
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&user=ss0bqPYAAAAJ&cstart=200&pagesize=100
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&view_op=search_authors&mauthors=Naveen%20Chandrashekar
+INFO:scholarly:Found 0 authors
+INFO:scholarly:No more author pages
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&view_op=search_authors&mauthors=Marco%20Alfano
+INFO:scholarly:Found 2 authors
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&user=zbK0Ys0AAAAJ&pagesize=100
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&view_op=search_authors&mauthors=Arash%20Arami
+INFO:scholarly:Found 2 authors
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&user=NZKJuAIAAAAJ&pagesize=100
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&view_op=search_authors&mauthors=Sanjeev%20Bedi
+INFO:scholarly:Found 1 authors
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&user=FrrPL50AAAAJ&pagesize=100
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&user=FrrPL50AAAAJ&cstart=100&pagesize=100
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&view_op=search_authors&mauthors=Elliot%20Biro
+INFO:scholarly:Found 1 authors
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&user=AzCwhCAAAAAJ&pagesize=100
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&view_op=search_authors&mauthors=Clifford%20Butcher
+INFO:scholarly:Found 1 authors
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&user=RVKquSMAAAAJ&pagesize=100
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&view_op=search_authors&mauthors=Dongpu%20Cao
+INFO:scholarly:Found 1 authors
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&user=ss0bqPYAAAAJ&pagesize=100
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&user=ss0bqPYAAAAJ&cstart=100&pagesize=100
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&user=ss0bqPYAAAAJ&cstart=200&pagesize=100
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&view_op=search_authors&mauthors=Naveen%20Chandrashekar
+INFO:scholarly:Found 0 authors
+INFO:scholarly:No more author pages
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&view_op=search_authors&mauthors=Marco%20Alfano
+INFO:scholarly:Found 2 authors
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&user=zbK0Ys0AAAAJ&pagesize=100
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&view_op=search_authors&mauthors=Arash%20Arami
+INFO:scholarly:Found 2 authors
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&user=NZKJuAIAAAAJ&pagesize=100
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&view_op=search_authors&mauthors=Sanjeev%20Bedi
+INFO:scholarly:Found 1 authors
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&user=FrrPL50AAAAJ&pagesize=100
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&user=FrrPL50AAAAJ&cstart=100&pagesize=100
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&view_op=search_authors&mauthors=Elliot%20Biro
+INFO:scholarly:Found 1 authors
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&user=AzCwhCAAAAAJ&pagesize=100
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&view_op=search_authors&mauthors=Clifford%20Butcher
+INFO:scholarly:Found 1 authors
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&user=RVKquSMAAAAJ&pagesize=100
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&view_op=search_authors&mauthors=Dongpu%20Cao
+INFO:scholarly:Found 1 authors
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&user=ss0bqPYAAAAJ&pagesize=100
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&user=ss0bqPYAAAAJ&cstart=100&pagesize=100
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&user=ss0bqPYAAAAJ&cstart=200&pagesize=100
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&view_op=search_authors&mauthors=Naveen%20Chandrashekar
+INFO:scholarly:Found 0 authors
+INFO:scholarly:No more author pages
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&view_op=search_authors&mauthors=Marco%20Alfano
+INFO:scholarly:Found 2 authors
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&user=zbK0Ys0AAAAJ&pagesize=100
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&view_op=search_authors&mauthors=Arash%20Arami
+INFO:scholarly:Found 2 authors
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&user=NZKJuAIAAAAJ&pagesize=100
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&view_op=search_authors&mauthors=Sanjeev%20Bedi
+INFO:scholarly:Found 1 authors
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&user=FrrPL50AAAAJ&pagesize=100
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&view_op=search_authors&mauthors=Marco%20Alfano
+INFO:scholarly:Found 2 authors
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&user=zbK0Ys0AAAAJ&pagesize=100
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&view_op=search_authors&mauthors=Marco%20Alfano
+INFO:scholarly:Found 2 authors
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&user=zbK0Ys0AAAAJ&pagesize=100
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&view_op=search_authors&mauthors=Soo%20Jeon
+INFO:scholarly:Found 10 authors
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&user=kwS9oqEAAAAJ&pagesize=100
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&view_op=search_authors&mauthors=Soo%20Jeon
+INFO:scholarly:Found 10 authors
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&user=kwS9oqEAAAAJ&pagesize=100
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&view_op=search_authors&mauthors=Marco%20Alfano
+INFO:scholarly:Found 2 authors
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&user=zbK0Ys0AAAAJ&pagesize=100
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&view_op=search_authors&mauthors=Arash%20Arami
+INFO:scholarly:Found 2 authors
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&user=NZKJuAIAAAAJ&pagesize=100
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&view_op=search_authors&mauthors=Sanjeev%20Bedi
+INFO:scholarly:Found 1 authors
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&user=FrrPL50AAAAJ&pagesize=100
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&view_op=search_authors&mauthors=Elliot%20Biro
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&view_op=search_authors&mauthors=Marco%20Alfano
+INFO:scholarly:Found 2 authors
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&user=zbK0Ys0AAAAJ&pagesize=100
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&view_op=search_authors&mauthors=Arash%20Arami
+INFO:scholarly:Found 2 authors
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&user=NZKJuAIAAAAJ&pagesize=100
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&view_op=search_authors&mauthors=Sanjeev%20Bedi
+INFO:scholarly:Found 1 authors
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&user=FrrPL50AAAAJ&pagesize=100
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&view_op=search_authors&mauthors=Elliot%20Biro
+INFO:scholarly:Found 1 authors
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&user=AzCwhCAAAAAJ&pagesize=100
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&view_op=search_authors&mauthors=Clifford%20Butcher
+INFO:scholarly:Found 1 authors
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&user=RVKquSMAAAAJ&pagesize=100
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&view_op=search_authors&mauthors=Dongpu%20Cao
+INFO:scholarly:Found 1 authors
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&user=ss0bqPYAAAAJ&pagesize=100
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&view_op=search_authors&mauthors=Naveen%20Chandrashekar
+INFO:scholarly:Found 0 authors
+INFO:scholarly:No more author pages
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&view_op=search_authors&mauthors=Marco%20Alfano
+INFO:scholarly:Found 2 authors
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&user=zbK0Ys0AAAAJ&pagesize=100
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&view_op=search_authors&mauthors=Arash%20Arami
+INFO:scholarly:Found 2 authors
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&user=NZKJuAIAAAAJ&pagesize=100
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&view_op=search_authors&mauthors=Sanjeev%20Bedi
+INFO:scholarly:Found 1 authors
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&user=FrrPL50AAAAJ&pagesize=100
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&view_op=search_authors&mauthors=Elliot%20Biro
+INFO:scholarly:Found 1 authors
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&user=AzCwhCAAAAAJ&pagesize=100
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&view_op=search_authors&mauthors=Clifford%20Butcher
+INFO:scholarly:Found 1 authors
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&user=RVKquSMAAAAJ&pagesize=100
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&view_op=search_authors&mauthors=Dongpu%20Cao
+INFO:scholarly:Found 1 authors
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&user=ss0bqPYAAAAJ&pagesize=100
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&view_op=search_authors&mauthors=Naveen%20Chandrashekar
+INFO:scholarly:Found 0 authors
+INFO:scholarly:No more author pages
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&view_op=search_authors&mauthors=Marco%20Alfano
+INFO:scholarly:Found 2 authors
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&user=zbK0Ys0AAAAJ&pagesize=100
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&view_op=search_authors&mauthors=Arash%20Arami
+INFO:scholarly:Found 2 authors
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&user=NZKJuAIAAAAJ&pagesize=100
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&view_op=search_authors&mauthors=Sanjeev%20Bedi
+INFO:scholarly:Found 1 authors
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&user=FrrPL50AAAAJ&pagesize=100
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&view_op=search_authors&mauthors=Elliot%20Biro
+INFO:scholarly:Found 1 authors
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&user=AzCwhCAAAAAJ&pagesize=100
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&view_op=search_authors&mauthors=Clifford%20Butcher
+INFO:scholarly:Found 1 authors
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&user=RVKquSMAAAAJ&pagesize=100
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&view_op=search_authors&mauthors=Dongpu%20Cao
+INFO:scholarly:Found 1 authors
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&user=ss0bqPYAAAAJ&pagesize=100
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&view_op=search_authors&mauthors=Naveen%20Chandrashekar
+INFO:scholarly:Found 0 authors
+INFO:scholarly:No more author pages
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&view_op=search_authors&mauthors=Michael%20Collins
+INFO:scholarly:Found 10 authors
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&user=DxoenfgAAAAJ&pagesize=100
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&view_op=search_authors&mauthors=Duane%20Cronin
+INFO:scholarly:Found 1 authors
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&user=mj90Su8AAAAJ&pagesize=100
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&view_op=search_authors&mauthors=Richard%20J%20Culham
+INFO:scholarly:Found 0 authors
+INFO:scholarly:No more author pages
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&view_op=search_authors&mauthors=Kyle%20Daun
+INFO:scholarly:Found 1 authors
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&user=ph4hKC0AAAAJ&pagesize=100
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&view_op=search_authors&mauthors=Cecile%20Devaud
+INFO:scholarly:Found 1 authors
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&user=4qY00BgAAAAJ&pagesize=100
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&view_op=search_authors&mauthors=Kaan%20Erkorkmaz
+INFO:scholarly:Found 1 authors
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&user=kTG2UYwAAAAJ&pagesize=100
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&view_op=search_authors&mauthors=Shahrzad%20Esmaeili
+INFO:scholarly:Found 1 authors
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&user=WBWt2bsAAAAJ&pagesize=100
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&view_op=search_authors&mauthors=Baris%20Fidan
+INFO:scholarly:Found 1 authors
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&user=kQBCvYEAAAAJ&pagesize=100
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&view_op=search_authors&mauthors=Roydon%20Fraser
+INFO:scholarly:Found 0 authors
+INFO:scholarly:No more author pages
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&view_op=search_authors&mauthors=Adrian%20Gerlich
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&view_op=search_authors&mauthors=Kamyar%20Ghavam
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&view_op=search_authors&mauthors=Allyson%20Giannikouris
+INFO:scholarly:Found 0 authors
+INFO:scholarly:No more author pages
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&view_op=search_authors&mauthors=Feridun%20Hamdullahpur
+INFO:scholarly:Found 0 authors
+INFO:scholarly:No more author pages
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&view_op=search_authors&mauthors=Carolyn%20Hansson
+INFO:scholarly:Found 3 authors
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&user=Y70kcd8AAAAJ&pagesize=100
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&view_op=search_authors&mauthors=Jean-Pierre%20Hickey
+INFO:scholarly:Found 1 authors
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&user=_Oq2etUAAAAJ&pagesize=100
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&view_op=search_authors&mauthors=Jan%20Huissoon
+INFO:scholarly:Found 1 authors
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&user=_hVVKwUAAAAJ&pagesize=100
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&view_op=search_authors&mauthors=Carol%20Hulls
+INFO:scholarly:Found 1 authors
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&user=tyXFvXwAAAAJ&pagesize=100
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&view_op=search_authors&mauthors=Kaan%20Inal
+INFO:scholarly:Found 1 authors
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&user=fD70lxoAAAAJ&pagesize=100
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&view_op=search_authors&mauthors=Hamid%20Jahedmotlagh
+INFO:scholarly:Found 0 authors
+INFO:scholarly:No more author pages
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&view_op=search_authors&mauthors=Soo%20Jeon
+INFO:scholarly:Found 10 authors
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&user=kwS9oqEAAAAJ&pagesize=100
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&view_op=search_authors&mauthors=David%20Johnson
+INFO:scholarly:Found 10 authors
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&user=LyEq7qEAAAAJ&pagesize=100
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&view_op=search_authors&mauthors=Amir%20Khajepour
+INFO:scholarly:Found 1 authors
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&user=TL84ll0AAAAJ&pagesize=100
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&view_op=search_authors&mauthors=Marco%20Alfano
+INFO:scholarly:Found 2 authors
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&user=zbK0Ys0AAAAJ&pagesize=100
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&view_op=search_authors&mauthors=Arash%20Arami
+INFO:scholarly:Found 2 authors
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&user=NZKJuAIAAAAJ&pagesize=100
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&view_op=search_authors&mauthors=Sanjeev%20Bedi
+INFO:scholarly:Found 1 authors
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&user=FrrPL50AAAAJ&pagesize=100
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&view_op=search_authors&mauthors=Marco%20Alfano
+INFO:scholarly:Found 2 authors
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&user=zbK0Ys0AAAAJ&pagesize=100
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&view_op=search_authors&mauthors=Arash%20Arami
+INFO:scholarly:Found 2 authors
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&user=NZKJuAIAAAAJ&pagesize=100
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&view_op=search_authors&mauthors=Sanjeev%20Bedi
+INFO:scholarly:Found 1 authors
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&user=FrrPL50AAAAJ&pagesize=100
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&view_op=search_authors&mauthors=Elliot%20Biro
+INFO:scholarly:Found 1 authors
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&user=AzCwhCAAAAAJ&pagesize=100
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&view_op=search_authors&mauthors=Clifford%20Butcher
+INFO:scholarly:Found 1 authors
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&user=RVKquSMAAAAJ&pagesize=100
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&view_op=search_authors&mauthors=Dongpu%20Cao
+INFO:scholarly:Found 1 authors
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&user=ss0bqPYAAAAJ&pagesize=100
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&view_op=search_authors&mauthors=Naveen%20Chandrashekar
+INFO:scholarly:Found 0 authors
+INFO:scholarly:No more author pages
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&view_op=search_authors&mauthors=Michael%20Collins
+INFO:scholarly:Found 10 authors
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&user=DxoenfgAAAAJ&pagesize=100
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&view_op=search_authors&mauthors=Duane%20Cronin
+INFO:scholarly:Found 1 authors
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&user=mj90Su8AAAAJ&pagesize=100
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&view_op=search_authors&mauthors=Richard%20J%20Culham
+INFO:scholarly:Found 0 authors
+INFO:scholarly:No more author pages
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&view_op=search_authors&mauthors=Kyle%20Daun
+INFO:scholarly:Found 1 authors
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&user=ph4hKC0AAAAJ&pagesize=100
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&view_op=search_authors&mauthors=Cecile%20Devaud
+INFO:scholarly:Found 1 authors
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&user=4qY00BgAAAAJ&pagesize=100
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&view_op=search_authors&mauthors=Kaan%20Erkorkmaz
+INFO:scholarly:Found 1 authors
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&user=kTG2UYwAAAAJ&pagesize=100
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&view_op=search_authors&mauthors=Shahrzad%20Esmaeili
+INFO:scholarly:Found 1 authors
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&user=WBWt2bsAAAAJ&pagesize=100
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&view_op=search_authors&mauthors=Baris%20Fidan
+INFO:scholarly:Found 1 authors
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&user=kQBCvYEAAAAJ&pagesize=100
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&view_op=search_authors&mauthors=Roydon%20Fraser
+INFO:scholarly:Found 0 authors
+INFO:scholarly:No more author pages
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&view_op=search_authors&mauthors=Adrian%20Gerlich
+INFO:scholarly:Found 1 authors
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&user=5C0TnnEAAAAJ&pagesize=100
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&view_op=search_authors&mauthors=Kamyar%20Ghavam
+INFO:scholarly:Found 0 authors
+INFO:scholarly:No more author pages
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&view_op=search_authors&mauthors=Allyson%20Giannikouris
+INFO:scholarly:Found 0 authors
+INFO:scholarly:No more author pages
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&view_op=search_authors&mauthors=Feridun%20Hamdullahpur
+INFO:scholarly:Found 0 authors
+INFO:scholarly:No more author pages
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&view_op=search_authors&mauthors=Carolyn%20Hansson
+INFO:scholarly:Found 3 authors
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&user=Y70kcd8AAAAJ&pagesize=100
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&view_op=search_authors&mauthors=Jean-Pierre%20Hickey
+INFO:scholarly:Found 1 authors
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&user=_Oq2etUAAAAJ&pagesize=100
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&view_op=search_authors&mauthors=Jan%20Huissoon
+INFO:scholarly:Found 1 authors
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&user=_hVVKwUAAAAJ&pagesize=100
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&view_op=search_authors&mauthors=Carol%20Hulls
+INFO:scholarly:Found 1 authors
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&user=tyXFvXwAAAAJ&pagesize=100
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&view_op=search_authors&mauthors=Kaan%20Inal
+INFO:scholarly:Found 1 authors
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&user=fD70lxoAAAAJ&pagesize=100
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&view_op=search_authors&mauthors=Hamid%20Jahedmotlagh
+INFO:scholarly:Found 0 authors
+INFO:scholarly:No more author pages
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&view_op=search_authors&mauthors=Soo%20Jeon
+INFO:scholarly:Found 10 authors
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&user=kwS9oqEAAAAJ&pagesize=100
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&view_op=search_authors&mauthors=David%20Johnson
+INFO:scholarly:Found 10 authors
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&user=LyEq7qEAAAAJ&pagesize=100
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&view_op=search_authors&mauthors=Amir%20Khajepour
+INFO:scholarly:Found 1 authors
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&user=TL84ll0AAAAJ&pagesize=100
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&view_op=search_authors&mauthors=David%20Johnson
+INFO:scholarly:Found 10 authors
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&user=LyEq7qEAAAAJ&pagesize=100
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&view_op=search_authors&mauthors=David%20Johnson
+INFO:scholarly:Found 10 authors
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&user=LyEq7qEAAAAJ&pagesize=100
