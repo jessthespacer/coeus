@@ -49,6 +49,7 @@ def Create_List(total_entries, col_num, temp_table):
         lst.append(temp_table[col_num][x])
     return lst
 
+#gives key to all the unique 
 def Uniqueness_Key(ID_length, array):
     
     key = []
@@ -73,6 +74,7 @@ def Uniqueness_Key(ID_length, array):
           
     return key;
 
+#key input will allow it to be ordered ID column
 def New_Array(key, lst):
     array=[]
     for i in range(len(lst)):
@@ -86,6 +88,12 @@ def ID_Assignment(total_entries, col_num, temp_table, ID_len):
     key = Uniqueness_Key(ID_len, lst)
     ids = New_Array(key, lst)
     return lst, ids
+
+def ID_Assignment_tag(total_entries, col_num, temp_table, ID_len):
+    lst = Create_List(total_entries, col_num, temp_table)
+    key = Uniqueness_Key(ID_len, lst)
+    ids = New_Array(key, lst)
+    return lst, ids, key
 
 def People_ID(total_entries, ID_length, col_num, temp_table):
     lst=[]
